@@ -1087,60 +1087,25 @@ img {
   text-decoration: underline;
 }
 
-.btn-whatsapp-direct {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #25D366;
-  font-weight: 600;
-  font-size: 14px;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.btn-whatsapp-direct:hover {
-  color: #1EBE57;
-  text-decoration: underline;
-  transform: translateX(2px);
-}
-
+/* --- AMAN & TERKUNCI DARI STYLESET LAIN --- */
 .whatsapp-inline-icon {
-  width: 18px;
-  height: 18px;
+  width: 18px !important;
+  height: 18px !important;
+  max-width: 18px !important;
+  max-height: 18px !important;
+  display: inline-block !important;
   border-radius: 3px;
   object-fit: contain;
-}
-
-.btn-linkedin-direct {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #0A66C2;
-  font-weight: 600;
-  font-size: 14px;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.btn-linkedin-direct:hover {
-  color: #388ee6;
-  text-decoration: underline;
-  transform: translateX(2px);
+  vertical-align: middle;
 }
 
 .linkedin-inline-icon {
-  width: 18px;
-  height: 18px;
+  width: 18px !important;
+  height: 18px !important;
+  max-width: 18px !important;
+  max-height: 18px !important;
+  display: inline-block !important;
   border-radius: 3px;
   object-fit: contain;
-}
-
-.bio-text {
-  color: var(--text-muted, #B8AAA2);
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.mt-12 {
-  margin-top: 12px;
+  vertical-align: middle;
 }
