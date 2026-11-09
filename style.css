@@ -1050,3 +1050,97 @@ img {
     justify-content: center;
   }
 }
+/* --- DIRECT CONTACT CARD STYLES --- */
+.direct-contact-card {
+  background: var(--bg-card, #24150F);
+  border-radius: 20px;
+  padding: 32px;
+  border: 1px solid rgba(69, 54, 45, 0.5);
+}
+
+.card-label {
+  font-size: 10px;
+  color: var(--text-muted, #B8AAA2);
+  display: block;
+  margin-bottom: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.direct-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.direct-email-link {
+  font-size: 20px;
+  color: var(--orange, #FF650A);
+  font-weight: 700;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.direct-email-link:hover {
+  text-decoration: underline;
+}
+
+.btn-whatsapp-direct {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #25D366;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-whatsapp-direct:hover {
+  color: #1EBE57;
+  text-decoration: underline;
+  transform: translateX(2px);
+}
+
+.whatsapp-inline-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  object-fit: contain;
+}
+
+.btn-linkedin-direct {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #0A66C2;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-linkedin-direct:hover {
+  color: #388ee6;
+  text-decoration: underline;
+  transform: translateX(2px);
+}
+
+.linkedin-inline-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  object-fit: contain;
+}
+
+.bio-text {
+  color: var(--text-muted, #B8AAA2);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
