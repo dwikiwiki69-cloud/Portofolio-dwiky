@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Dwiky Kristian Dermawan</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <nav class="nav-menu page-links">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About</a>
+        <a href="work.html" class="nav-item">Work</a>
+        <a href="contact.html" class="nav-item">Contact</a>
+      </nav>
+      
+      <div class="status-badge">
+        <span class="dot"></span> Open to Collaboration
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contact Hero -->
+    <section class="section-hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="section-label">
+            <span class="orange-line"></span>
+            <span>LET'S MAKE SOMETHING MEANINGFUL</span>
+          </div>
+          <h1 class="main-title">
+            Your idea.<br>
+            <span class="serif-italic">Our next conversation.</span>
+          </h1>
+          <p class="bio-lead">A web project, smart system integration, or a custom application — I'd love to hear about it. Tell me a little about what you have in mind.</p>
+        </div>
+        
+        <div class="hero-right">
+          <div class="direct-contact-card">
+            <span class="card-label">PREFER TO SAY HELLO DIRECTLY</span>
+            <div class="direct-links-wrapper">
+              <a href="mailto:dwikiwiki69@gmail.com" class="direct-email-link">dwikiwiki69@gmail.com</a>
+              <a href="https://wa.me/6285183342180?text=Halo%20Dwiky,%20saya%20bermaksud%20untuk%20konsultasi%20dan%20membangun%20proyek%20web%2Fsistem%20aplikasi.%20Apakah%20Anda%20sedang%20open%20for%20collaboration%3F" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-direct">
+                 Contact WhatsApp ↗
+              </a>
+            </div>
+            <p class="bio-text mt-12">There's no need for a complex specification. A few initial ideas, tech requirements, or questions are a great place to start.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inquiry Form Target FormSubmit -->
+    <section class="section-inquiry">
+      <div class="container">
+        <form class="inquiry-form-card" id="contact-form" action="https://formsubmit.co/dwikiwiki69@gmail.com" method="POST">
+          
+          <!-- Konfigurasi Tambahan FormSubmit -->
+          <input type="hidden" name="_subject" value="Pesan Baru dari Portofolio Web (Dwiky)">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+
+          <h2 class="form-title">Tell me about your project</h2>
+          <p class="form-subtitle">A little context goes a long way. Share what you want to build, any specific tech stack you prefer, and your target timeline.</p>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your name *</label>
+              <input type="text" name="name" placeholder="What should I call you?" required />
+            </div>
+            <div class="form-group">
+              <label>Email address *</label>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Brand/business name</label>
+              <input type="text" name="brand" placeholder="Your brand name (if you have one)" />
+            </div>
+            <div class="form-group">
+              <label>Website or social link</label>
+              <input type="url" name="website" placeholder="If relevant" />
+            </div>
+          </div>
+
+          <!-- Services Selection -->
+          <div class="form-group mb-24">
+            <label>What can I help with?</label>
+            <div class="checkbox-pills">
+              <label class="pill-checkbox"><input type="checkbox" name="services[]" value="Web Development"> <span>Web Development</span></label>
+              <label class="pill-checkbox"><input type="checkbox" name="services[]" value="Database Management"> <span>Database Management</span></label>
+              <label class="pill-checkbox"><input type="checkbox" name="services[]" value="IoT & Smart Systems"> <span>IoT & Smart Systems</span></label>
+              <label class="pill-checkbox"><input type="checkbox" name="services[]" value="Custom Web App / System"> <span>Custom Web App / System</span></label>
+              <label class="pill-checkbox"><input type="checkbox" name="services[]" value="Something else"> <span>Something else</span></label>
+            </div>
+          </div>
+
+          <!-- Budget Selection -->
+          <div class="form-group mb-24">
+            <label>Estimated project budget (USD)</label>
+            <div class="radio-pills">
+              <label class="pill-radio"><input type="radio" name="budget" value="Under $200"> <span>Under $200</span></label>
+              <label class="pill-radio"><input type="radio" name="budget" value="$500 - $1,000"> <span>$500 - $1,000</span></label>
+              <label class="pill-radio"><input type="radio" name="budget" value="$1,000 - $3,000"> <span>$1,000 - $3,000</span></label>
+              <label class="pill-radio"><input type="radio" name="budget" value="$3,000+"> <span>$3,000+</span></label>
+            </div>
+          </div>
+
+          <!-- Timeline Selection -->
+          <div class="form-group mb-24">
+            <label>When would you like to start?</label>
+            <div class="radio-pills">
+              <label class="pill-radio"><input type="radio" name="timeline" value="As soon as possible"> <span>As soon as possible</span></label>
+              <label class="pill-radio"><input type="radio" name="timeline" value="Within 1 month"> <span>Within 1 month</span></label>
+              <label class="pill-radio"><input type="radio" name="timeline" value="Just exploring"> <span>Just exploring</span></label>
+            </div>
+          </div>
+
+          <!-- Project Details -->
+          <div class="form-group mb-32">
+            <label>A little about your project *</label>
+            <textarea name="message" rows="5" placeholder="Your vision, goals, audience, and anything else you'd like me to know..." required></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-orange">Send project inquiry ↗</button>
+            <a href="https://wa.me/6285183342180?text=Halo%20Dwiky,%20saya%20bermaksud%20untuk%20konsultasi%20dan%20membangun%20proyek%20web%2Fsistem%20aplikasi.%20Apakah%20Anda%20sedang%20open%20for%20collaboration%3F" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-outline">
+              Contact WhatsApp 
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Workflow Steps -->
+    <section class="section-workflow">
+      <div class="container">
+        <div class="section-label">
+          <span class="orange-line"></span>
+          <span>A THOUGHTFUL START</span>
+        </div>
+        <h2 class="section-title">
+          From hello to a clear.<br>
+          <span class="serif-italic">way forward.</span>
+        </h2>
+        
+        <div class="workflow-grid col-3">
+          <div class="workflow-step">
+            <span class="step-num">01</span>
+            <h4>A personal reply</h4>
+            <p>I'll review your project requirements and get back to you with initial thoughts, questions, or next steps.</p>
+          </div>
+          <div class="workflow-step">
+            <span class="step-num">02</span>
+            <h4>Technical discussion</h4>
+            <p>We'll discuss your goals, required features, database structure, and confirm if we're the right technical fit.</p>
+          </div>
+          <div class="workflow-step">
+            <span class="step-num">03</span>
+            <h4>Tailored proposal</h4>
+            <p>You'll receive a detailed scope of work, technical architecture breakdown, timeline, and quote before development begins.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand-left">
+          <div class="logo-circle">DK</div>
+          <span class="brand-name">Dwiky Kristian Dermawan</span>
+        </div>
+        <nav class="footer-nav page-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="work.html">Work</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>© 2026 Dwiky Kristian Dermawan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

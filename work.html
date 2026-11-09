@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — Dwiky Kristian Dermawan</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <nav class="nav-menu page-links">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About</a>
+        <a href="work.html" class="nav-item">Work</a>
+        <a href="contact.html" class="nav-item">Contact</a>
+      </nav>
+      
+      <div class="status-badge">
+        <span class="dot"></span> Open to Collaboration
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Work Hero -->
+    <section class="section-hero">
+      <div class="container">
+        <div class="section-label">
+          <span class="orange-line"></span>
+          <span>THE PORTFOLIO / A CREATIVE EXPLORATION</span>
+        </div>
+        <h1 class="main-title">
+          Different challenges.<br>
+          <span class="serif-italic">Distinctive solutions.</span>
+        </h1>
+        <p class="bio-text max-w-600">A collection of visual worlds built around a clear idea. From the first mark to the final touchpoint, all projects aim to explore creative possibilities.</p>
+        
+        <!-- Category Filters -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Dev</button>
+          <button class="filter-btn" data-filter="iot">IoT & AI</button>
+          <button class="filter-btn" data-filter="interactive">Interactive</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project List -->
+    <section class="section-projects pt-0">
+      <div class="container">
+        <div class="projects-grid">
+          <!-- Item 1 -->
+          <article class="project-card project-card-full" data-category="iot">
+            <div class="project-img-wrapper">
+              <img src="images/brand-still-life-86.png" alt="Bumi Berseru Fest - Smart Composting Monitor" class="clickable-preview">
+            </div>
+            <h3>Bumi Berseru Fest — Smart Composting Monitor</h3>
+            <p>Alat monitoring berbasis AI dan integrasi IoT dengan dashboard real-time untuk proses pengolahan kompos dan ampas kopi. Menjadi karya unggulan di Lomba Tekno Hijau Bumi Berseru Fest.</p>
+          </article>
+
+          <!-- Item 2 -->
+          <article class="project-card" data-category="web">
+            <div class="project-img-wrapper">
+              <img src="images/brand-still-life-94.png" alt="Website Dealer Mobil Honda Balikpapan" class="clickable-preview">
+            </div>
+            <h3>Website Dealer Mobil Honda Balikpapan</h3>
+            <p>Website katalog digital interaktif yang dilengkapi kalkulator simulasi kredit/tenor serta integrasi langsung ke WhatsApp Sales Representative untuk mempermudah lead conversion.</p>
+          </article>
+
+          <!-- Item 3 -->
+          <article class="project-card" data-category="interactive">
+            <div class="project-img-wrapper">
+              <img src="images/brand-still-life-106.png" alt="Custom Interactive Birthday Cards Platform" class="clickable-preview">
+            </div>
+            <h3>Custom Interactive Birthday Cards Platform</h3>
+            <p>Web service komersial yang menyajikan ucapan ulang tahun interaktif, kustomisasi pesan, animasi personal, serta pengiriman digital.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-cta">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-content">
+            <h2>
+              Your next project,<br>
+              <span class="serif-italic">efficiently built.</span>
+            </h2>
+            <p>Have a concept or system in mind? Let's turn it into reality.</p>
+          </div>
+          <div class="cta-action">
+            <a href="contact.html" class="btn-orange">Let’s work together ↗</a>
+            <a href="mailto:dwikiwiki69@gmail.com" class="cta-email">dwikiwiki69@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand-left">
+          <div class="logo-circle">DK</div>
+          <span class="brand-name">Dwiky Kristian Dermawan</span>
+        </div>
+        <nav class="footer-nav page-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="work.html">Work</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>© 2026 Dwiky Kristian Dermawan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
